@@ -15,7 +15,8 @@
     "core-js": "^3.9.1",
     "moment": "^2.29.1",
     "nuxt": "^2.15.3",
-    "vue-chartjs": "^3.5.1"
+    "vue-chartjs": "^3.5.1",
+    "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {}
 }
