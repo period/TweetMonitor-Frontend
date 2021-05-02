@@ -8,6 +8,7 @@
         </div>
         <div class="col-7">
             <metrics-chart :metrics="tweet.metrics" :display="['Impressions']" />
+            <n-link :to="'/tweet/' + tweet.id" class="btn btn-block btn-primary">More info &#129094;</n-link>
         </div>
     </div>
 </template>
