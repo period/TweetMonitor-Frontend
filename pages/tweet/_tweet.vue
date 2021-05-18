@@ -1,5 +1,5 @@
 <template>
-    <div class="container" v-if="loaded">
+    <div class="container my-5" v-if="loaded">
         <h1 class="text-center">Tweetlytics - Tweet #{{ tweet.id }}</h1>
         <div class="row">
             <Tweet class="col-3" :id="tweet.id" :error-message="tweet.text" />
